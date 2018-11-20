@@ -21,13 +21,13 @@ navigate to project root directory
 ```
 type **npm install**
 ```
-type **npm run start** 
+type **npm run start**
 ```
 navigate to localhost:8080
 ```
 
-<img src="./screenshot.png" alt="drawing" width="200"/>
-![Screenshot](screenshot.png)
+<img src="./screenshot.png" alt="drawing" width="500"/>
+
 
 ## Technologies Used
 * _ReactJS_
