@@ -5,4 +5,7 @@ By _**Catherine Bradley**_
 Contact: _**catherinetybradley@gmail.com**_
 ---
 ## Description
-I use React to make a mock Help Queue for coding students. ding students. 
+I use React to make a mock Help Queue for coding students. ding students.
+
+
+![Screenshot](screenshot.png)

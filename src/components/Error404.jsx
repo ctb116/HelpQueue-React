@@ -3,10 +3,14 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 function Error404(props){
+  var styles = {
+    paddingLeft: '50px',
+  };
+
   return (
     <div>
-      <h2>The page you {props.location.pathname}, does not exist!</h2>
-      <h3>Would you like to return <Link to="/">home</Link> instead?</h3>
+      <h1>Opps! Page not found.</h1>
+      <h2 style={styles}>{props.location.pathname}</h2>
     </div>
   );
 }
