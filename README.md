@@ -22,7 +22,7 @@ I used React to make a mock Help Queue for coding students.
 5. navigate to localhost:8080
 
 
-<img src="./screenshot.png" alt="drawing" width="600"/>
+<img style="float: right;" src="./screenshot.png" alt="drawing" width="600"/>
 
 
 ## Technologies Used
