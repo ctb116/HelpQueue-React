@@ -5,15 +5,14 @@ By _**Catherine Bradley**_</br>
 Contact: _**catherinetybradley@gmail.com**_</br>
 
 ## Description
-I use React to make a mock Help Queue for coding students. ding students.
+I used React to make a mock Help Queue for coding students.
 
 ## Setup/Installation Requirements
-```sh
-clone this repository
-navigate to project root directory
-type `<npm install>`
-type `<npm run start>`
-navigate to localhost:8080
-```
+| clone this repository |
+| navigate to project root directory |
+| type **npm install** |
+| type **npm run start** |
+| navigate to localhost:8080 |
 
-![Screenshot](screenshot.png =100x20)
+
+<img src="screenshot.jpg" alt="drawing" width="200"/>
