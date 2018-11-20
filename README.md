@@ -14,19 +14,15 @@ I used React to make a mock Help Queue for coding students.
 | If User enters an invalid route in the URL, they are created by an Error404 page |
 
 ## Setup/Installation Requirements
-```
-clone this repository
-```
-navigate to project root directory
-```
-type **npm install**
-```
-type **npm run start**
-```
-navigate to localhost:8080
-```
 
-<img src="./screenshot.png" alt="drawing" width="500"/>
+1. clone this repository
+2. navigate to project root directory
+3. type **npm install**
+4. type **npm run start**
+5. navigate to localhost:8080
+
+
+<img src="./screenshot.png" alt="drawing" width="600"/>
 
 
 ## Technologies Used
