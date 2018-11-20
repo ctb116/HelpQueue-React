@@ -17,9 +17,9 @@ function HeaderContainer(){
             margin-bottom: 0px;
           }
         `}</style>
-        <HeaderImg/>
-        <img src={helpDeskBackground}/>
-        <NavBar/>
+      <HeaderImg/>
+      <img src={helpDeskBackground}/>
+      <NavBar/>
     </div>
   );
 }
