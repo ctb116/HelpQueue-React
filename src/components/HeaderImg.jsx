@@ -7,10 +7,11 @@ function HeaderImg(){
     <div>
       <style jsx>{`
           img {
-            display: flex;
-            justify-content: center;
             height: 200px;
             width: 450px;
+            position: absolute;
+            left: 35%;
+            z-index: 1000;
           }
         `}</style>
       <img src={helpDeskImg}/>

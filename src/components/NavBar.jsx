@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Header(){
-  // var styleHeader = {
-  //   backgroundColor: '#ecf0f1',
-  //   fontFamily: 'sans-serif',
-  // };
-
+function NavBar(){
   return (
-    <div>
+    <div><style jsx>{`
+      div {
+        background-color: #a9b8c0;
+        margin-top: -30px;
+        padding-left: 15px;
+      }
+    `}</style>
       <h1>Help Queue</h1>
       <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
     </div>
   );
 }
 
-export default Header;
+export default NavBar;
