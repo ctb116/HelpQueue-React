@@ -6,6 +6,8 @@ Contact: _**catherinetybradley@gmail.com**_</br>
 
 ## Description
 Mock help queue for coding students.
+App component is refactored into a class-based component instead of a stateless functional component because it is a common ansestor to ticket and newticket component.
+user-provided data from NewTicketForm going into App, where the application state resides, is inverse data flow
 
 | User Story |
 |----|
