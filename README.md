@@ -28,3 +28,4 @@ Mock help queue for coding students.
 ## Technologies Used
 * _ReactJS_
 * _webpack-npm_
+* _esLint_

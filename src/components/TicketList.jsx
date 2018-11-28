@@ -9,6 +9,7 @@ function TicketList(props){
       {props.ticketList.map((ticket) =>
         <Ticket names={ticket.names}
           location={ticket.location}
+          formattedWaitTime={ticket.formattedWaitTime}
           issue={ticket.issue}
           key={ticket.id}/>
       )}
