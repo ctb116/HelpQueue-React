@@ -2,12 +2,15 @@
   "name": "react-help-queue-example",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/epicodus-lessons/react-help-queue-example#readme",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/** src/**/**; exit 0",
     "lint-fix": "eslint src/** src/**/** --fix; exit 0",
     "test": "jest; exit 0",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/epicodus-lessons/react-help-queue-example/issues"
   },
-  "homepage": "https://github.com/epicodus-lessons/react-help-queue-example#readme",
   "dependencies": {
     "moment": "^2.18.1",
     "prop-types": "^15.5.10",
