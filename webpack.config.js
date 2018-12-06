@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 
@@ -79,5 +80,14 @@ module.exports = {
       title: 'React Help Queue',
       filename: resolve(__dirname, "build", "index.html"),
     }),
-  ]
+  ],
+  plugins: [
+    new CleanWebpackPlugin(['dist']),   // new line
+    new HtmlWebpackPlugin({
+      title: 'Ping Pong',
+      template: './src/index.html',
+      inject: 'body'
+    })
+  ],
+
 };
